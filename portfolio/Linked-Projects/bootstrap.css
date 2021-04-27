@@ -1,0 +1,50 @@
+
+
+
+
+@media(max-width:1279px){
+
+    #mobile-device-banner{
+       width: 100vw;
+       height: 50vh;
+       background-image: url(./bootstrap/slide-1.jpeg);
+       background-repeat: no-repeat;
+       background-size: cover;
+    }
+
+    #nav-desktop{
+        display: none;
+    }
+
+    #carouselExample{
+        background-image: url(./images/1_NMqs8G0Mei0ZCplsWLjbyw.jpeg) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        display: none;
+        
+    }
+
+    .carousel-control-prev,
+    .carousel-control-prev-icon,
+   .carousel-control-next-icon,
+   .carousel-control-next
+    {
+        visibility: hidden;
+    }
+}
+
+@media (min-width:1280px){
+
+    #mobile-device-banner{
+        display: none;
+    }
+
+    #nav-mobile{
+        display: none;
+    }
+
+    h1{
+        border-radius: .5em;
+    }
+}

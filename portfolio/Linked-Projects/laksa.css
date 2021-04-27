@@ -1,0 +1,81 @@
+
+:root{
+    font-size: 62.5%;
+}
+
+h1{
+    text-align: center;
+    padding: .5em;
+    font-size: 6em;
+    color: #2a9d8f;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+border-radius: 50%;
+width: 400px;
+border: solid 1em  #e76f51;
+border-style: double;
+padding: .5em;
+
+}
+
+
+
+#ingredients{
+
+background-color: #e9c46a;
+display: block;
+margin: 10em 8em 0 8em;
+
+padding: 6em;
+border-radius: 1%;
+
+}
+
+h2{
+    font-size: 3em;
+    color: #2a9d8f;
+  
+}
+
+h3{
+    font-size: 2em;
+    padding-left: 1em;
+    
+}
+
+ul{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    line-height: 2em;
+    list-style: circle;
+    padding-bottom: 3em;
+}
+
+#recipe{
+    background-color: #e9c46a;
+display: block;
+margin: 10em 8em 0 8em;
+padding: 6em;
+border-radius: 1%;
+}
+
+ol{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    line-height: 2.5em; 
+padding-bottom: 3em;
+}
+
+p{
+    font-size: 2em;
+    margin: 3em 10em 10em 10em;
+    text-align: center;
+   padding: 3em;
+    background-color: #2a9d8f;
+    border-radius: 3%;
+    color: blanchedalmond;
+}
