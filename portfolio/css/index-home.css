@@ -2,6 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -141,7 +145,7 @@ header {
   border-radius: 0.5rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 480px) {
   .main-container {
     background-color: #E3AFBC;
     margin: 100px 40px 100px 40px;

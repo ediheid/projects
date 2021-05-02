@@ -2,128 +2,112 @@
 @import "mixins";
 @import "styling";
 
-
-
-.main-container{
-   @include flex-column;
-   
+.main-container {
+  @include flex-column;
 }
 
-.profile-photo{
-
-    background-image: url(../images/profile-photo.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom right;
-    max-width: 767px;
-    width: 100vw;
-    height: 50vh;
-    margin-top: 80px;
+.profile-photo {
+  background-image: url(../images/profile-photo.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom right;
+  max-width: 767px;
+  width: 100vw;
+  height: 50vh;
+  margin-top: 80px;
 }
 
+.text {
+  @include flex-column;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 1.7em;
+  font-weight: lighter;
 
-
-.text{
-   @include flex-column;
+  h1 {
+    font-family: $dot-text;
+    color: $maroon;
+    display: flex;
     justify-content: center;
-    text-align: center;
-    font-size: 1.5em;
-    line-height: 1.7em;
-    font-weight: lighter;
+    padding-top: 40px;
+    letter-spacing: 4px;
+    font-size: 2rem;
+  }
 
-    h1{
-    
-
-
-        font-family: $dot-text;
-        color: $maroon;
-        display: flex;
-        justify-content: center;
-        padding-top: 40px;
-        letter-spacing: 4px;
-        font-size: 2rem
-       }
-
-    .paragraph-container{
+  .paragraph-container {
     @include blush-background;
     margin: 30px;
     padding: 50px;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
+  }
 }
-  
-}
 
+@media (min-width: 480px) {
+  .main-container {
+    @include blush-background;
+    margin: 100px 40px 100px 40px;
+    padding-bottom: 200px;
+    border-radius: 0.5rem;
 
-
-
-
-@media(min-width:768px){
-
-    .main-container{
-        @include blush-background;
-        margin:100px 40px 100px 40px;
-        padding-bottom: 200px;
-        border-radius: .5rem;
-
-        h1{
-            font-size: 4rem
-        }
-        
-        .paragraph-container{
-            @include grey-background;
-            margin-top: 0px;
-            margin-top: 30px;
-            }
-
-       
+    h1 {
+      font-size: 4rem;
     }
 
-
-    .profile-photo{
-        @include circle-border;
-        width: 350px;
-        height: 350px;
-        margin-top: 100px;
-        display: flex;
-        justify-content: center;
-        align-self: center;   
-     
+    .paragraph-container {
+      @include grey-background;
+      margin-top: 0px;
+      margin-top: 30px;
     }
+  }
 
-    
-@keyframes cresent{
-    0%{
+  .profile-photo {
+    @include circle-border;
+    width: 350px;
+    height: 350px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+
+  @keyframes cresent {
+    0% {
       transform: translate(-30px, 30px) scale(0.9);
       box-shadow: none;
     }
-    50%{
+    50% {
       transform: translate(0px, 0px) scale(1.02);
       box-shadow: 0 0 10px lighten($blush, 30%), 0 0 80px 8px $grey;
       background-color: $blush;
     }
-    100%{
+    100% {
       transform: translate(30px, -30px) scale(0.9);
       box-shadow: none;
     }
   }
 
-  .moon-container{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-top: 80px;
+  .moon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
   }
 
-.moon{
-    background-image: linear-gradient(30deg, darken($crimson,4.6%), darken($maroon, 8.3%));
+  .moon {
+    background-image: linear-gradient(
+      30deg,
+      darken($crimson, 4.6%),
+      darken($maroon, 8.3%)
+    );
     width: 96px;
     height: 96px;
     border-radius: 50%;
     position: relative;
-    &::before{
-      content: '';
+    &::before {
+      content: "";
       background-color: $pink;
-    
+
       display: flex;
       height: 100%;
       width: 100%;
@@ -134,74 +118,49 @@
   }
 }
 
-  
-
-
-@media (min-width:1280px){
-
-.main-container{
+@media (min-width: 1280px) {
+  .main-container {
     @include blush-background;
     @include flex-row;
     justify-content: space-evenly;
     margin: 100px 30px 150px 30px;
-    padding: 50px 50px 200px 50px;  
+    padding: 50px 50px 200px 50px;
 
-    border-radius: .5rem;
-}
+    border-radius: 0.5rem;
+  }
 
-
-
-.profile-photo{
-   @include circle-border;
+  .profile-photo {
+    @include circle-border;
     width: 500px;
     height: 500px;
     margin-left: 20px;
     margin-right: 20px;
 
+    &:hover {
+      transform: scale(1.1);
+      transition: 0.5s;
+    }
+  }
 
-    &:hover{
+  .text {
+    width: 60%;
+
+    h1 {
+      font-size: 4rem;
+    }
+
+    .paragraph-container {
+      @include grey-background;
+
+      &:hover {
         transform: scale(1.1);
-        transition: .5s;
-       
+        opacity: 0.8;
+        transition: 0.5s;
+      }
     }
-}
+  }
 
-
-
-
-
-.text{
-    width:60%;
-
-    h1{
-        font-size: 4rem
-    }
-  
-
-    .paragraph-container{
-        @include grey-background;
-        
-        &:hover{
-            transform: scale(1.1);
-            opacity: .8;
-            transition: .5s;
-           }
-    }
-}
-
-
-.moon-container{
+  .moon-container {
     display: none;
+  }
 }
-
-}
-
-
-
-
-
-
-
-
-
-      

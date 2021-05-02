@@ -31,14 +31,14 @@ header {
 
 #nav-heading {
   font-family: "Raleway Dots", sans-serif;
-  color: #9A1750;
+  color: #9a1750;
   font-weight: bolder;
   letter-spacing: 5px;
   font-size: 2em;
 }
 
 .footer {
-  background-color: #E3E2DF;
+  background-color: #e3e2df;
   padding: 3em 6em 3em 3em;
   display: flex;
   justify-content: space-between;
@@ -60,12 +60,12 @@ header {
 .footer .fab:hover {
   text-decoration: none;
   transform: scale(1.6);
-  color: #9A1750;
+  color: #9a1750;
 }
 .footer .fas:hover {
   text-decoration: none;
   transform: scale(1.6);
-  color: #9A1750;
+  color: #9a1750;
 }
 
 @media (max-width: 767px) {
@@ -92,12 +92,12 @@ header {
     padding-right: 40px;
     font-size: 1.4em;
     letter-spacing: 2px;
-    color: #9A1750;
+    color: #9a1750;
   }
   ul li a:hover {
     text-decoration: none;
     font-weight: bolder;
-    color: #EE4C7C;
+    color: #ee4c7c;
   }
 }
 .form-container {
@@ -110,7 +110,7 @@ header {
 }
 
 form {
-  background-color: #E3AFBC;
+  background-color: #e3afbc;
   padding: 40px;
   height: 600px;
   width: 70%;
@@ -129,7 +129,7 @@ form span {
   margin: 10px 0 10px 0;
   font-weight: 300;
   font-size: 1.3em;
-  color: #9A1750;
+  color: #9a1750;
 }
 
 .button {
@@ -137,17 +137,17 @@ form span {
   border-radius: 0.3em;
   width: 100px;
   margin-top: 20px;
-  color: #9A1750;
+  color: #9a1750;
   text-transform: uppercase;
   background: #ffffff;
   padding: 5px;
-  border: 2px solid #9A1750;
+  border: 2px solid #9a1750;
   border-radius: 6px;
 }
 .button:hover {
-  color: #EE4C7C;
+  color: #ee4c7c;
   border-radius: 50px;
-  border-color: #EE4C7C;
+  border-color: #ee4c7c;
   transition: all 0.5s ease 0s;
 }
 
@@ -165,7 +165,7 @@ input {
 input:focus {
   background-color: whitesmoke;
   outline: none;
-  border: 2px solid #9A1750;
+  border: 2px solid #9a1750;
 }
 
 textarea {
@@ -176,7 +176,7 @@ textarea {
 textarea:focus {
   background-color: whitesmoke;
   outline: none;
-  border: 2px solid #9A1750;
+  border: 2px solid #9a1750;
 }
 
 /*# sourceMappingURL=contact.css.map */
