@@ -2,6 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -31,14 +35,14 @@ header {
 
 #nav-heading {
   font-family: "Raleway Dots", sans-serif;
-  color: #9a1750;
+  color: #9A1750;
   font-weight: bolder;
   letter-spacing: 5px;
   font-size: 2em;
 }
 
 .footer {
-  background-color: #e3e2df;
+  background-color: #E3E2DF;
   padding: 3em 6em 3em 3em;
   display: flex;
   justify-content: space-between;
@@ -60,12 +64,12 @@ header {
 .footer .fab:hover {
   text-decoration: none;
   transform: scale(1.6);
-  color: #9a1750;
+  color: #9A1750;
 }
 .footer .fas:hover {
   text-decoration: none;
   transform: scale(1.6);
-  color: #9a1750;
+  color: #9A1750;
 }
 
 @media (max-width: 767px) {
@@ -92,17 +96,17 @@ header {
     padding-right: 40px;
     font-size: 1.4em;
     letter-spacing: 2px;
-    color: #9a1750;
+    color: #9A1750;
   }
   ul li a:hover {
     text-decoration: none;
     font-weight: bolder;
-    color: #ee4c7c;
+    color: #EE4C7C;
   }
 }
 .form-container {
   margin-top: 180px;
-  margin-bottom: 50px;
+  margin-bottom: 350px;
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -110,7 +114,7 @@ header {
 }
 
 form {
-  background-color: #e3afbc;
+  background-color: #E3AFBC;
   padding: 40px;
   height: 600px;
   width: 70%;
@@ -129,7 +133,7 @@ form span {
   margin: 10px 0 10px 0;
   font-weight: 300;
   font-size: 1.3em;
-  color: #9a1750;
+  color: #9A1750;
 }
 
 .button {
@@ -137,17 +141,17 @@ form span {
   border-radius: 0.3em;
   width: 100px;
   margin-top: 20px;
-  color: #9a1750;
+  color: #9A1750;
   text-transform: uppercase;
   background: #ffffff;
   padding: 5px;
-  border: 2px solid #9a1750;
+  border: 2px solid #9A1750;
   border-radius: 6px;
 }
 .button:hover {
-  color: #ee4c7c;
+  color: #EE4C7C;
   border-radius: 50px;
-  border-color: #ee4c7c;
+  border-color: #EE4C7C;
   transition: all 0.5s ease 0s;
 }
 
@@ -165,7 +169,7 @@ input {
 input:focus {
   background-color: whitesmoke;
   outline: none;
-  border: 2px solid #9a1750;
+  border: 2px solid #9A1750;
 }
 
 textarea {
@@ -176,7 +180,7 @@ textarea {
 textarea:focus {
   background-color: whitesmoke;
   outline: none;
-  border: 2px solid #9a1750;
+  border: 2px solid #9A1750;
 }
 
 /*# sourceMappingURL=contact.css.map */
