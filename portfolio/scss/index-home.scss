@@ -23,17 +23,18 @@
   text-align: center;
   font-size: 1.5em;
   line-height: 1.7em;
-  color: $maroon;
+  color: $crimson;
   // font-weight: lighter;
 
   h1 {
-    font-family: $dot-text;
+    font-family: $main-text;
     color: $maroon;
     display: flex;
     justify-content: center;
     padding-top: 40px;
     letter-spacing: 4px;
     font-size: 2rem;
+    font-weight: 200;
   }
 
   .paragraph-container {

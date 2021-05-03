@@ -127,16 +127,17 @@ header {
   text-align: center;
   font-size: 1.5em;
   line-height: 1.7em;
-  color: #5d001e;
+  color: #9A1750;
 }
 .text h1 {
-  font-family: "Raleway Dots", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #5d001e;
   display: flex;
   justify-content: center;
   padding-top: 40px;
   letter-spacing: 4px;
   font-size: 2rem;
+  font-weight: 200;
 }
 .text .paragraph-container {
   background-color: #E3AFBC;
