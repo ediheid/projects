@@ -1,123 +1,111 @@
 @import "variables";
 @import "mixins";
 
-*{
-    margin: 0;
-    padding: 0;
-    font-family: $main-text;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: $main-text;
 }
 
-:root{
-    font-size: 62.5%
+:root {
+  font-size: 62.5%;
 }
 
-body{
-    box-sizing: border-box;
-  
+body {
+  box-sizing: border-box;
 }
 
-
-
-#horizontal-line-bottom{
-    margin: 0 40px 80px 40px;  
- }
- 
+#horizontal-line-bottom {
+  margin: 0 40px 80px 40px;
+}
 
 //? Header and Footer
 
-header{
-padding: 2em;
-position: fixed;
-top: 0;
-z-index: 2;
-background-color: white;
-width: 100%;
+header {
+  padding: 2em;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  background-color: white;
+  width: 100%;
 }
 
+#nav-heading {
+  font-family: $dot-text;
+  color: $crimson;
+  font-weight: bolder;
+  letter-spacing: 5px;
+  font-size: 2em;
+}
 
-#nav-heading{
-    font-family: $dot-text;
+.footer {
+  @include grey-background;
+  padding: 3em 6em 3em 3em;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.8;
+
+  span {
+    color: $maroon;
+    font-size: 1.2em;
+  }
+
+  #icon-links {
+    justify-self: center;
+  }
+
+  .fab,
+  .fas {
+    color: $maroon;
+    text-decoration: none;
+    padding-right: 12px;
+  }
+
+  .fab:hover {
+    text-decoration: none;
+    transform: scale(1.6);
     color: $crimson;
-    font-weight: bolder;
-    letter-spacing: 5px;
-    font-size: 2em;
+  }
+
+  .fas:hover {
+    text-decoration: none;
+    transform: scale(1.6);
+    color: $crimson;
+  }
 }
 
-
-
-.footer{
-    @include grey-background;
-    padding: 3em 6em 3em 3em;
-    display: flex;
-    justify-content: space-between;
-    opacity: 0.8;
-
-   
-    span{
-      color: $maroon;
-      font-size: 1.2em;
-   }
-
-    #icon-links{
-        justify-self: center;
-    }
-
-    .fab,
-    .fas {
-        color: $maroon;
-        text-decoration: none;
-        padding-right: 12px;
- }
-
-    .fab:hover{
-        text-decoration: none;
-        transform: scale(1.6);
-        color: $crimson;
-    }
-
-    .fas:hover{
-        text-decoration: none;
-        transform: scale(1.6);
-        color: $crimson;
-    }
+@media (max-width: 767px) {
+  #nav-desktop {
+    display: none;
+  }
 }
 
+@media (min-width: 768px) {
+  #nav-mobile {
+    display: none;
+  }
 
-
-@media(max-width:767px){
-    #nav-desktop{
-        display: none;
-    }
-}
-
-
-
-@media (min-width:768px){
-    #nav-mobile{
-        display: none;
-    }
-
-#nav-desktop{
+  #nav-desktop {
     display: flex;
     padding-top: 10px;
     justify-content: space-between;
-}
+  }
 
-    ul{
-        list-style: none;
-        display: flex;
-       
-        li a{
-            padding-right: 40px;
-            font-size: 1.4em;
-            letter-spacing: 2px;
-            color: $crimson;
-            
-          &:hover{
-              text-decoration: none;
-              font-weight: bolder;
-              color: $pink;
-          }
-        } 
+  ul {
+    list-style: none;
+    display: flex;
+
+    li a {
+      padding-right: 40px;
+      font-size: 1.4em;
+      letter-spacing: 2px;
+      color: $crimson;
+
+      &:hover {
+        text-decoration: none;
+        font-weight: bolder;
+        color: $pink;
+      }
     }
+  }
 }

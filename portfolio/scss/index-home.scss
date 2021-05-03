@@ -2,6 +2,8 @@
 @import "mixins";
 @import "styling";
 
+// sass --watch scss/index-home.scss:css/index-home.css
+
 .main-container {
   @include flex-column;
 }
