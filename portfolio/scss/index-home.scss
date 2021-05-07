@@ -47,9 +47,95 @@
   }
 }
 
+.tool-box-icons {
+  @include blush-background;
+
+  margin: 30px;
+  padding: 50px;
+  border-radius: 0.5rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  .tool-box-logos {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+  }
+
+  #html-logo {
+    background-image: url(../images/html-logo.png);
+    background-size: cover;
+  }
+
+  #css-logo {
+    background-image: url(../images/css-logo.png);
+    background-size: cover;
+  }
+
+  #js-logo {
+    background-image: url(../images/javascript-logo.png);
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    margin-top: 0px;
+  }
+
+  #gitHub-logo {
+    background-image: url(../images/gitHub-logo.png);
+    background-size: cover;
+  }
+
+  #sass-logo {
+    background-image: url(../images/sass-logo.png);
+    background-size: cover;
+  }
+
+  #mongo-logo {
+    background-image: url(../images/mongo-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  #express-logo {
+    background-image: url(../images/ExpressJS.png);
+    background-size: contain;
+    width: 60px;
+    height: 60px;
+  }
+
+  #react-logo {
+    background-image: url(../images/react-2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    // width: 120px;
+    // margin-right: 20px;
+    // margin-left: 20px;
+  }
+  #node-js-logo {
+    background-image: url(../images/node-js.png);
+    background-size: cover;
+  }
+
+  #bootstrap-logo {
+    background-image: url(../images/bootstrap-logo.png);
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+  }
+
+  #ps-logo {
+    background-image: url(../images/ps-logo.png);
+    background-size: cover;
+  }
+}
+
 @media (min-width: 480px) {
   .main-container {
     @include blush-background;
+
     margin: 100px 40px 100px 40px;
     padding-bottom: 200px;
     border-radius: 0.5rem;

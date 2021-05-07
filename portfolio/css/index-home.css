@@ -146,6 +146,75 @@ header {
   border-radius: 0.5rem;
 }
 
+.tool-box-icons {
+  background-color: #E3AFBC;
+  margin: 30px;
+  padding: 50px;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.tool-box-icons .tool-box-logos {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+}
+.tool-box-icons #html-logo {
+  background-image: url(../images/html-logo.png);
+  background-size: cover;
+}
+.tool-box-icons #css-logo {
+  background-image: url(../images/css-logo.png);
+  background-size: cover;
+}
+.tool-box-icons #js-logo {
+  background-image: url(../images/javascript-logo.png);
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  margin-top: 0px;
+}
+.tool-box-icons #gitHub-logo {
+  background-image: url(../images/gitHub-logo.png);
+  background-size: cover;
+}
+.tool-box-icons #sass-logo {
+  background-image: url(../images/sass-logo.png);
+  background-size: cover;
+}
+.tool-box-icons #mongo-logo {
+  background-image: url(../images/mongo-logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.tool-box-icons #express-logo {
+  background-image: url(../images/ExpressJS.png);
+  background-size: contain;
+  width: 60px;
+  height: 60px;
+}
+.tool-box-icons #react-logo {
+  background-image: url(../images/react-2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.tool-box-icons #node-js-logo {
+  background-image: url(../images/node-js.png);
+  background-size: cover;
+}
+.tool-box-icons #bootstrap-logo {
+  background-image: url(../images/bootstrap-logo.png);
+  background-size: cover;
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+}
+.tool-box-icons #ps-logo {
+  background-image: url(../images/ps-logo.png);
+  background-size: cover;
+}
+
 @media (min-width: 480px) {
   .main-container {
     background-color: #E3AFBC;
